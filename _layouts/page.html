@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body class="{% if page.custom-style %}{{ page.custom-style }}{% endif %}{% if page.navbar-style == 'solid' %}navbar-solid{% endif %}">
+        {% include nav.html %} <!-- Navigation Bar -->
+        <main class="content">
+            {{ content }} <!-- Page Content (CV in this case) -->
+        </main>
+        {% include footer.html %} <!-- Footer -->
+    </body>
+</html>

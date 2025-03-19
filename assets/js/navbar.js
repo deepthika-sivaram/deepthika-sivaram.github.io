@@ -32,20 +32,57 @@ window.onload = function() {
 //     document.querySelector(".page-content").classList.toggle("shift");
 // }
 
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
+//     let menu = document.querySelector(".navbar ul");
+//     let content = document.querySelector(".page-content");
+//     let toggleButton = document.querySelector(".menu-toggle");
+
+//     if (toggleButton && menu) {
+//         toggleButton.addEventListener("click", function() {
+//             menu.classList.toggle("active");
+//             if (content) {
+//                 content.classList.toggle("shift");
+//             }
+//         });
+//     }
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
     let menu = document.querySelector(".navbar ul");
     let content = document.querySelector(".page-content");
     let toggleButton = document.querySelector(".menu-toggle");
 
     if (toggleButton && menu) {
-        toggleButton.addEventListener("click", function() {
+        function toggleNav(event) {
+            event.stopPropagation(); // Prevents the click from closing the menu
             menu.classList.toggle("active");
             if (content) {
                 content.classList.toggle("shift");
             }
+        }
+
+        // Open menu on button click
+        toggleButton.addEventListener("click", toggleNav);
+        toggleButton.addEventListener("touchstart", toggleNav, { passive: true });
+
+        // Prevent closing when clicking inside the menu
+        menu.addEventListener("click", function (event) {
+            event.stopPropagation();
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener("click", function (event) {
+            if (!menu.contains(event.target) && !toggleButton.contains(event.target)) {
+                menu.classList.remove("active");
+                if (content) {
+                    content.classList.remove("shift");
+                }
+            }
         });
     }
 });
+
+
 
 
 

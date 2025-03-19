@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (toggleButton && menu) {
         function toggleNav(event) {
-            event.preventDefault(); // Prevent default behavior (especially for Safari)
-            event.stopPropagation(); // Prevent event bubbling issues
+            event.preventDefault(); // Fixes long-press issue on Safari
+            event.stopPropagation(); // Prevents event bubbling conflicts
 
             isMenuOpen = !isMenuOpen; // Toggle state
             menu.classList.toggle("active", isMenuOpen);
@@ -60,16 +60,17 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-        // Attach event listeners for click (for Safari & Chrome)
+        // ✅ Fix for Safari: Ensure `touchstart` is ignored
         toggleButton.addEventListener("click", toggleNav);
         document.addEventListener("click", closeNav);
 
-        // Fix for Safari: Ensure `touchstart` does not interfere
+        // ✅ Ensure `touchstart` only runs on Android, NOT Safari
         if (!navigator.userAgent.includes("Safari") || navigator.userAgent.includes("Chrome")) {
-            toggleButton.addEventListener("touchstart", toggleNav, { passive: true });
+            toggleButton.addEventListener("touchend", toggleNav);
         }
     }
 });
+
 
 
 

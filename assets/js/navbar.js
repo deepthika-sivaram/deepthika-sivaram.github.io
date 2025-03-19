@@ -32,20 +32,46 @@ window.onload = function() {
 //     document.querySelector(".page-content").classList.toggle("shift");
 // }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let menu = document.querySelector(".navbar ul");
     let content = document.querySelector(".page-content");
     let toggleButton = document.querySelector(".menu-toggle");
+    let isMenuOpen = false; // Track menu state
 
     if (toggleButton && menu) {
-        toggleButton.addEventListener("click", function() {
-            menu.classList.toggle("active");
+        function toggleNav(event) {
+            event.preventDefault(); // Prevent default behavior (especially for Safari)
+            event.stopPropagation(); // Prevent event bubbling issues
+
+            isMenuOpen = !isMenuOpen; // Toggle state
+            menu.classList.toggle("active", isMenuOpen);
             if (content) {
-                content.classList.toggle("shift");
+                content.classList.toggle("shift", isMenuOpen);
             }
-        });
+        }
+
+        function closeNav(event) {
+            if (isMenuOpen && !menu.contains(event.target) && !toggleButton.contains(event.target)) {
+                isMenuOpen = false;
+                menu.classList.remove("active");
+                if (content) {
+                    content.classList.remove("shift");
+                }
+            }
+        }
+
+        // Attach event listeners for click (for Safari & Chrome)
+        toggleButton.addEventListener("click", toggleNav);
+        document.addEventListener("click", closeNav);
+
+        // Fix for Safari: Ensure `touchstart` does not interfere
+        if (!navigator.userAgent.includes("Safari") || navigator.userAgent.includes("Chrome")) {
+            toggleButton.addEventListener("touchstart", toggleNav, { passive: true });
+        }
     }
 });
+
+
 
 
 

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+    <div class="page-content">
     {% include head.html %}
+    <script src="{{ site.baseurl }}/assets/js/navbar.js" defer></script>
     <body class="{% if page.custom-style %}{{ page.custom-style }}{% endif %}{% if page.navbar-style == 'solid' %}navbar-solid{% endif %}">
         {% include nav.html %} <!-- Navigation Bar -->
         <main class="content">
@@ -8,4 +10,5 @@
         </main>
         {% include footer.html %} <!-- Footer -->
     </body>
+    </div>
 </html>

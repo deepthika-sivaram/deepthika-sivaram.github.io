@@ -26,3 +26,26 @@ window.onload = function() {
         navbar.classList.add('solid');
     }
 };
+
+// function toggleMenu() {
+//     document.querySelector(".navbar ul").classList.toggle("active");
+//     document.querySelector(".page-content").classList.toggle("shift");
+// }
+
+document.addEventListener("DOMContentLoaded", function() {
+    let menu = document.querySelector(".navbar ul");
+    let content = document.querySelector(".page-content");
+    let toggleButton = document.querySelector(".menu-toggle");
+
+    if (toggleButton && menu) {
+        toggleButton.addEventListener("click", function() {
+            menu.classList.toggle("active");
+            if (content) {
+                content.classList.toggle("shift");
+            }
+        });
+    }
+});
+
+
+

@@ -11,6 +11,6 @@ navbar-style: solid
     <div class="cv-frame">
         <!-- <iframe class="cv-iframe" src="/assets/files/cv.pdf"></iframe> -->
         <!-- <iframe class="cv-iframe" src="https://docs.google.com/gview?url=your-resume-file.pdf&embedded=true"></iframe> -->
-        <iframe class="cv-iframe" src="https://drive.google.com/file/d/1YgGyJq95oTmU1xb5qWbkQakYvn5FWzMR/preview" width="100%" height="600px" style="border: none;"></iframe>
+        <iframe class="cv-iframe" src="https://drive.google.com/file/d/1yzQ-wcEIPBH63OM8QLI4e717_7dBNzkR/preview" width="100%" height="600px" style="border: none;"></iframe>
     </div>
 </section>

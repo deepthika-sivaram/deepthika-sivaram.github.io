@@ -14,14 +14,35 @@ permalink: /experience/
             </div>
             <div class="education-content">
                 <h2>Citigroup</h2>
-                <p><strong>Designation:</strong>Software Development Engineer 2</p>
+                <p><strong>Designation:</strong>Software Development Engineer</p>
                 <ul>
-                    <li>Subject Matter Expert</li>
-                    <li>Cross Domain Project Lead</li>
-                    <li>Quantum Code Base Development for Mobile Application Testing using Quantum BDD Framework, Spring, and Selenium</li>
-                    <li>C# Automation Development</li>
-                    <li>Test Data Automation</li>
-                    <li>Citi's Gratitude Copper and Bronze Awards</li>
+                <li>
+                    Subject Matter Expert (Mutual Funds): Led 10+ technical sessions, improving domain proficiency across 3 teams and accelerating onboarding for 15+ engineers.
+                </li>
+                <li>
+                    Led two automation projects: Collaborated with product and engineering teams to improve QA throughput by 70%.
+                </li>
+                <li>
+                    Quantum Code Base Development for Mobile Application Testing using Quantum BDD Framework, Spring, and Selenium: Built a mobile test framework in Java integrated with Perfecto, enabling cross-platform testing on 100+ devices and reducing mobile QA effort by 60%.
+                </li>
+                <li>
+                    C# Automation Development: Engineered robust test automation frameworks in C# for backend services, reducing manual testing time by 65% and increasing automated regression coverage by 85%.
+                </li>
+                <li>
+                    Test Data Automation: Developed reusable test data generation utilities and dynamic linkage scripts in Java and C# for 20+ services, eliminating manual test data preparation and reducing test cycles by 40%.
+                </li>
+                <li>
+                    Built REST API test harnesses using RestAssured and Postman, reducing defect leakage by 40% and accelerating release cycles by 30%.
+                </li>
+                <li>
+                    Optimized MySQL queries and stored procedures to validate high-volume transactional workflows, improving data integrity checks by 50%.
+                </li>
+                <li>
+                    Promoted SOLID principles, TDD, and reusable test architecture through active code review participation and test strategy design.
+                </li>
+                <li>
+                    Citi's Gratitude Copper and Bronze Awards: Recognized for innovation in automation and cross-team impact, including a 40% reduction in defect leakage and 30% faster release cycles.
+                </li>
                 </ul>
             </div>
         </div>

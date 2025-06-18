@@ -10,6 +10,36 @@ permalink: /projects/
         <div class="education-item">
             <span class="education-year">2025</span>
             <div class="education-content">
+                <h2>AI-Based Sketch to Webpage Converter</h2>
+                <p><strong>Description:</strong> Built an end-to-end DL pipeline to convert UI sketches to HTML using YOLOv8 for object detection, custom CNN for UI-aware features, Transformer with self-attention for hierarchy modeling, and GRU for tag generation. Integrated EasyOCR for text extraction and achieved mAP@50 = 0.96 with support for theme customization and layout hierarchy.</p>
+                <p><strong>Technologies:</strong> Python, PyTorch, YOLO, CV, NLP, SketchIT Dataset</p>
+                <p><strong>Link:</strong> <a href="https://github.com/deepthika-sivaram/AI-Sketch-to-UI-Converter" target="_blank">GitHub</a> </p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <span class="education-year">2025</span>
+            <div class="education-content">
+                <h2>AI-Powered GitHub Code Review Bot</h2>
+                <p><strong>Description:</strong> Built a backend service with FastAPI and GitHub Webhooks to automate PR reviews, integrating API validation and reducing manual review effort by 40%.</p>
+                <p><strong>Technologies:</strong> Python, FastAPI, GitHub, OpenAI API</p>
+                <p><strong>Link:</strong> <a href="https://github.com/deepthika-sivaram/ai-code-review-bot" target="_blank">GitHub</a> </p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <span class="education-year">2025</span>
+            <div class="education-content">
+                <h2>Abstractive Summarization of Legal and News Documents</h2>
+                <p><strong>Description:</strong> Fine-tuned a BART model on BillSum and Multi-News datasets to generate concise summaries. Achieved ROUGE-1: 47%, BLEU: 16%, and BERTScore: 88% through hyperparameter tuning and efficient training.</p>
+                <p><strong>Technologies:</strong> Python, PyTorch, LLM, NLP</p>
+                <p><strong>Link:</strong> <a href="https://github.com/deepthika-sivaram/ai-code-review-bot" target="_blank">GitHub</a> </p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <span class="education-year">2025</span>
+            <div class="education-content">
                 <h2>Building an Audio Classification Model with STFT and TensorFlow</h2>
                 <p><strong>Description:</strong> Explored how to develop an audio classification model using Short-Time Fourier Transform (STFT) and TensorFlow, covering data preprocessing, spectrogram generation, and deep learning techniques for sound recognition</p>
                 <p><strong>Technologies:</strong> Python, Tensorflow, Librosa, ESC-50 Dataset</p>

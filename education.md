@@ -15,7 +15,7 @@ permalink: /education/
             <div class="education-content">
                 <h2>State University of New York at Buffalo</h2>
                 <p><strong>Major:</strong> M.S. in Computer Science ( AI / ML ) Track</p>
-                <p><strong>GPA:</strong>3.92</p>
+                <p><strong>GPA:</strong>3.95</p>
                 <p><strong>Courses:</strong></p>
                 <ul>
                     <li>Machine Learning and Deep Learning</li>

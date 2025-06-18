@@ -17,31 +17,31 @@ permalink: /experience/
                 <p><strong>Designation:</strong>Software Development Engineer</p>
                 <ul>
                 <li>
-                    Subject Matter Expert (Mutual Funds): Led 10+ technical sessions, improving domain proficiency across 3 teams and accelerating onboarding for 15+ engineers.
+                    <strong>Led two automation projects</strong> interfacing with product and engineering teams, <strong>improving system QA throughput by 70%</strong>.
                 </li>
                 <li>
-                    Led two automation projects: Collaborated with product and engineering teams to improve QA throughput by 70%.
+                    <strong>Engineered robust test automation frameworks</strong> in <strong>Java and C#</strong> for backend services, achieving a <strong>65% reduction in manual testing time</strong> and increasing <strong>automated regression coverage by 85%</strong>.
                 </li>
                 <li>
-                    Quantum Code Base Development for Mobile Application Testing using Quantum BDD Framework, Spring, and Selenium: Built a mobile test framework in Java integrated with Perfecto, enabling cross-platform testing on 100+ devices and reducing mobile QA effort by 60%.
+                    Built and maintained <strong>REST API test harnesses</strong> using tools like <strong>RestAssured</strong> and <strong>Postman</strong>, resulting in <strong>40% lower defect leakage</strong> and accelerating <strong>release cycles by 30%</strong>.
                 </li>
                 <li>
-                    C# Automation Development: Engineered robust test automation frameworks in C# for backend services, reducing manual testing time by 65% and increasing automated regression coverage by 85%.
+                    Wrote optimized <strong>MySQL queries and stored procedures</strong> for validating high-volume transactional workflows, <strong>improving data integrity checks by 50%</strong>.
                 </li>
                 <li>
-                    Test Data Automation: Developed reusable test data generation utilities and dynamic linkage scripts in Java and C# for 20+ services, eliminating manual test data preparation and reducing test cycles by 40%.
+                    Built <strong>mobile test framework in Java</strong> integrated with <strong>Perfecto</strong>, enabling cross-platform testing on <strong>100+ devices</strong> and <strong>reducing mobile QA effort by 60%</strong>.
                 </li>
                 <li>
-                    Built REST API test harnesses using RestAssured and Postman, reducing defect leakage by 40% and accelerating release cycles by 30%.
+                    Active contributor to internal <strong>Innovation Team</strong>; developed <strong>reusable test data generation utilities</strong> and <strong>dynamic linkage scripts</strong> in Java and C# for <strong>20+ services</strong>, <strong>eliminating manual prep by 100%</strong> and <strong>reducing test cycles by 40%</strong>.
                 </li>
                 <li>
-                    Optimized MySQL queries and stored procedures to validate high-volume transactional workflows, improving data integrity checks by 50%.
+                    Acted as <strong>Subject Matter Expert for the Mutual Funds domain</strong>, leading <strong>10+ technical sessions</strong> that improved domain proficiency across <strong>3 teams</strong> and <strong>accelerated onboarding for 15+ engineers</strong>.
                 </li>
                 <li>
-                    Promoted SOLID principles, TDD, and reusable test architecture through active code review participation and test strategy design.
+                    Participated in <strong>code reviews and test strategy design</strong>, promoting <strong>SOLID principles</strong>, <strong>TDD</strong>, and <strong>reusable test architecture</strong>.
                 </li>
                 <li>
-                    Citi's Gratitude Copper and Bronze Awards: Recognized for innovation in automation and cross-team impact, including a 40% reduction in defect leakage and 30% faster release cycles.
+                    Recognized with <strong>Citi Gratitude Copper and Bronze Awards</strong> for <strong>innovation in automation</strong> and <strong>cross-team impact</strong>.
                 </li>
                 </ul>
             </div>
@@ -56,9 +56,24 @@ permalink: /experience/
                 <h2>Morgan Stanley</h2>
                 <p><strong>Designation:</strong>Software Development Intern</p>
                 <ul>
-                    <li>CI/CD of Microservices into Cloud: Load Balancers, Containerization, DevOps</li>
-                    <li>Deployment Model Research: Blue Green Deployment</li>
-                    <li>CI/CD Pipeline Automation: Jenkins and YAML</li>
+                <li>
+                    Developed an end-to-end <strong>DevOps POC application</strong> to automate <strong>CI/CD workflows</strong> for microservices-based systems.
+                </li>
+                <li>
+                    Used <strong>Docker</strong> to containerize services, built <strong>Jenkins YAML pipelines</strong>, and deployed via <strong>Kubernetes</strong> to the private cloud.
+                </li>
+                <li>
+                    Integrated <strong>Bitbucket webhooks</strong> for <strong>commit-based deployment triggers</strong>, <strong>reducing manual intervention by 90%</strong> and <strong>increasing deployment frequency by 3×</strong>.
+                </li>
+                <li>
+                    Implemented <strong>load balancers</strong> and <strong>orchestration logic</strong> to manage dynamic service routing and resilience.
+                </li>
+                <li>
+                    Designed and implemented a <strong>Blue-Green Deployment strategy</strong>, achieving <strong>100% availability during rollouts</strong> and <strong>reducing rollback time by 90%</strong>.
+                </li>
+                <li>
+                    <strong>Reduced deployment time by 75%</strong> (from ~40 mins to under 10 mins) and <strong>improved pipeline stability by 55%</strong> through <strong>build stage parallelization</strong> and <strong>caching</strong>.
+                </li>
                 </ul>
             </div>
         </div>

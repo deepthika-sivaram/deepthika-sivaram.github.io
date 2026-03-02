@@ -71,7 +71,7 @@ function About() {
                             <img
                                 src={photos[currentPhoto]}
                                 className="about-photo"
-                                alt={`Photo ${currentPhoto + 1}`}
+                                alt={`About me ${currentPhoto + 1}`}
                             />
                             <button type="button" className="carousel-btn next" onClick={nextPhoto} aria-label="Next photo">
                                 &#8250;

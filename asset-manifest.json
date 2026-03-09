@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.69f7adea.css",
-    "main.js": "/static/js/main.0bfafa97.js",
+    "main.js": "/static/js/main.c509b251.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock03.png": "/static/media/mock03.81f751382c5dd95c050d.png",
     "static/media/mock08.png": "/static/media/mock08.cfc70b9eebf1ad7e1045.png",
@@ -18,18 +18,18 @@
     "static/media/about1.png": "/static/media/about1.73e016e200e3ceb40510.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/resume.pdf": "/static/media/resume.65d8e58f2ca33ff9df80.pdf",
     "static/media/profile.jpg": "/static/media/profile.716275918455cd5a690c.jpg",
+    "static/media/resume.pdf": "/static/media/resume.cc9c8363db7a86d5e2b9.pdf",
     "static/media/au.jpg": "/static/media/au.7275aca67f259a7f0d27.jpg",
     "static/media/ub-logo.jpg": "/static/media/ub-logo.cf6c69e0c08bbb78c339.jpg",
     "static/media/ms.jpg": "/static/media/ms.5482d7523e2c2f83c41b.jpg",
     "index.html": "/index.html",
     "main.69f7adea.css.map": "/static/css/main.69f7adea.css.map",
-    "main.0bfafa97.js.map": "/static/js/main.0bfafa97.js.map",
+    "main.c509b251.js.map": "/static/js/main.c509b251.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69f7adea.css",
-    "static/js/main.0bfafa97.js"
+    "static/js/main.c509b251.js"
   ]
 }

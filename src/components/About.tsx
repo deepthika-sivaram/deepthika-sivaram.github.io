@@ -42,23 +42,25 @@ function About() {
             <h1>About Me</h1>
             <div className="about-grid">
                 <div className="skill">
-                    <h3>From backend systems to AI — because that's where things are heading.</h3>
+                    <h3>From backend systems to AI — that’s just where things started to pull me.</h3>
                     <p>
-                        I spent three years at <strong>Citigroup</strong> building backend systems that process thousands of transactions a day and have to work, no excuses. 
-                        I enjoyed that work. But I kept noticing how much the industry was shifting, and I didn't want to just watch it happen from the sidelines.
+                        I spent three years at <strong>Citigroup</strong> building backend systems that handled thousands of transactions a day. 
+                        It was the kind of work where things simply couldn’t break, and I actually enjoyed that responsibility. But over time, I kept noticing how quickly things were shifting toward AI, and I didn't want to just watch it happen from the sidelines.
                     </p>
                     <p>
-                        So I made the move into AI/ML. Not because it was trendy, but because I genuinely believe it's changing how software gets built and I wanted to be someone who builds it,
-                        not just someone who talks about it. I finished my <strong>MS in CS specializing in AI/ML at University at Buffalo (GPA 3.96)</strong>, 
-                        and now I work on things like LLM pipelines, computer vision systems, and NLP tooling that actually solve real problems in real workflows.
+                        So I made the move into AI/ML. Not because it was trendy, but because I genuinely wanted to understand it and build with it. 
+                        I finished my <strong>MS in Computer Science at the University at Buffalo, specializing in AI/ML (GPA 3.96)</strong>. 
+                        Since then, I’ve been working on LLM pipelines, computer vision systems, and NLP tools - things that actually get used, not just experiments sitting in notebooks.
                     </p>
                     <p>
-                        The backend background helps more than I expected. Production AI looks very different from a research notebook, 
-                        and knowing how to build things that scale and don't fall over is half the job.
+                        My backend experience has helped a lot more than I expected. 
+                        Building AI systems in production is very different from training a model once and calling it done. 
+                        A big part of the job is making sure things scale, don’t break, and fit into real systems.
                     </p>
                     <p>
-                        Outside of engineering, I love painting, singing, and spending time with friends—usually discovering new places or unwinding after a long build-and-ship cycle.
-                        I try to keep life balanced with creativity, curiosity, and experiences worth remembering that have nothing to do with a terminal window.
+                        Outside of work, I like painting, singing, and spending time with friends - usually trying out new places or 
+                        just unwinding after a long build-and-ship cycle. 
+                        I try to keep a balance between work and everything else… stuff that has nothing to do with a terminal window.
                     </p>
                     <button onClick={handleOpen} className="resume-btn">
                         View Resume

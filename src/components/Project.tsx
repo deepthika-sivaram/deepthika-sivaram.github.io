@@ -19,7 +19,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/deepthika-sivaram/event-matcher/tree/main/event-matcher" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/deepthika-sivaram/event-matcher/tree/main/event-matcher" target="_blank" rel="noreferrer"><h2>Event Connect ( Open source Contributor - AI Alliance (IBM/Meta) )</h2></a>
-                <p>Event Connect matches conference attendees with sponsors using a 5-agent LangGraph pipeline — not keyword search, but Gemini embeddings with cosine similarity. Agents run in parallel on Vercel serverless, cutting latency from 11s to under 5s. Firestore caching means repeat runs come back in under 1 second.</p>
+                <p>Event Connect matches conference attendees with sponsors using a 5-agent LangGraph pipeline, not keyword search, but Gemini embeddings with cosine similarity. Agents run in parallel on Vercel serverless with Firestore caching, cutting down latency.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/deepthika-sivaram/ai-code-review-bot" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>

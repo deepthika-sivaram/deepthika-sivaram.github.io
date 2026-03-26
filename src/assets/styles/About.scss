@@ -4,17 +4,36 @@
     flex-direction: column;
     text-align: left;
 
+    h1 {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    
+
     svg {
         color: white;
     }
 }
-  
+
 .about-container .about-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
-  
+
 .about-container .about-grid .skill {
     align-items: center;
     text-align: left;
@@ -62,6 +81,7 @@
 }
 
 .about-image-container {
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -135,7 +155,7 @@
 
 .resume-btn {
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 10px;
   padding: 10px 24px;
   background: #5000ca;
   color: #ffffff !important;

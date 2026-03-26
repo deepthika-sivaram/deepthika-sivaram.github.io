@@ -42,20 +42,23 @@ function About() {
             <h1>About Me</h1>
             <div className="about-grid">
                 <div className="skill">
-                    <h3>Building reliable backend systems and practical AI solutions.</h3>
+                    <h3>From backend systems to AI — because that's where things are heading.</h3>
                     <p>
-                        I work at the intersection of backend engineering and applied AI—turning ideas into systems that
-                        are reliable, observable, and production-ready.
+                        I spent three years at <strong>Citigroup</strong> building backend systems that process thousands of transactions a day and have to work, no excuses. 
+                        I enjoyed that work. But I kept noticing how much the industry was shifting, and I didn't want to just watch it happen from the sidelines.
                     </p>
                     <p>
-                        Previously at <strong>Citigroup</strong>, I built and owned backend platforms used by hundreds of engineers,
-                        led cross-team releases, and explored ML-assisted automation through internal innovation initiatives.
-                        Today, my focus is on AI/ML systems, including NLP, model-driven pipelines, and LLM-powered tooling.
+                        So I made the move into AI/ML. Not because it was trendy, but because I genuinely believe it's changing how software gets built and I wanted to be someone who builds it,
+                        not just someone who talks about it. I finished my <strong>MS in CS specializing in AI/ML at University at Buffalo (GPA 3.96)</strong>, 
+                        and now I work on things like LLM pipelines, computer vision systems, and NLP tooling that actually solve real problems in real workflows.
                     </p>
                     <p>
-                        Outside of engineering, I love painting, singing, and spending time with friends—usually discovering
-                        new places or unwinding after a long build-and-ship cycle. I try to keep life balanced with creativity,
-                        curiosity, and experiences worth remembering.
+                        The backend background helps more than I expected. Production AI looks very different from a research notebook, 
+                        and knowing how to build things that scale and don't fall over is half the job.
+                    </p>
+                    <p>
+                        Outside of engineering, I love painting, singing, and spending time with friends—usually discovering new places or unwinding after a long build-and-ship cycle.
+                        I try to keep life balanced with creativity, curiosity, and experiences worth remembering that have nothing to do with a terminal window.
                     </p>
                     <button onClick={handleOpen} className="resume-btn">
                         View Resume

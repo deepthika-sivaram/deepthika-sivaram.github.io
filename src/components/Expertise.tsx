@@ -72,6 +72,28 @@ function Expertise() {
         <div className="skills-container">
             <h1>Expertise</h1>
             <div className="skills-grid">
+
+                <div className="skill">
+                    <div className="icon-grid">
+                        <OpenaiIcon size={35}/>
+                        <TensorflowIcon size={35}/>
+                        <PytorchIcon size={35}/>
+                        <ScikitlearnIcon size={35}/>
+                    </div>
+                    <h3>AI/ML Engineering</h3>
+                    <p>
+                        I build AI systems that work beyond the notebook i.e., production pipelines with real latency constraints, 
+                        real data, and real users. My work spans LLM orchestration, computer vision, and NLP, with a focus on making models 
+                        actually useful in the products they're embedded in.
+                    </p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsSecond.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
+                </div>
+                
                 <div className="skill">
                     <div className="icon-grid">
                         <SpringIcon size={35}/>
@@ -79,8 +101,12 @@ function Expertise() {
                         <FastapiIcon size={35}/>
                         <PythonIcon size={35}/>
                     </div>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I design and build production-grade web applications from the ground up, owning the complete Software Development Life Cycle (SDLC) — from system design and API architecture to frontend experience and deployment. My focus is on scalable backend systems, clean API contracts, and responsive, maintainable frontend interfaces.</p>
+                    <h3>Backend Engineering</h3>
+                    <p>
+                        I've spent years building the kind of backend systems that can't afford to go down — high-transaction fintech platforms, 
+                        orchestration services, shared frameworks adopted across teams. I care about systems that scale, APIs that are predictable,
+                         and code that the next engineer can actually understand.
+                    </p>
 
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -98,27 +124,13 @@ function Expertise() {
                         <GitIcon size={35}/>
                     </div>
                     <h3>DevOps & Automation</h3>
-                    <p>Beyond application development, I implement CI/CD pipelines, automated testing strategies, and cloud-native deployment workflows to ensure reliable and repeatable releases. I specialize in containerization, environment consistency, and zero-downtime deployment strategies.</p>
+                    <p>
+                        Shipping code is only half the job. I've built CI/CD pipelines, containerized microservices, 
+                        and automated testing frameworks that compress release cycles and keep deployments boring - which is exactly how they should be.
+                    </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <div className="icon-grid">
-                        <OpenaiIcon size={35}/>
-                        <TensorflowIcon size={35}/>
-                        <PytorchIcon size={35}/>
-                        <ScikitlearnIcon size={35}/>
-                    </div>
-                    <h3>GenAI & LLM</h3>
-                    <p>I build enterprise-grade AI solutions that integrate Large Language Models into real-world systems. My experience includes multi-agent orchestration, semantic search, LLM-powered automation, and production-ready API integrations for intelligent decision-making workflows.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
